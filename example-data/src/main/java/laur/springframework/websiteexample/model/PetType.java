@@ -1,6 +1,6 @@
 package laur.springframework.websiteexample.model;
 
-public class PetType {
+public class PetType extends BaseEntity{
     private String name;
 
     public String getName() {
