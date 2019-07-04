@@ -4,7 +4,7 @@
 
     <groupId>laur.springframework</groupId>
     <artifactId>website-example</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>example-data</module>
         <module>example-web</module>
@@ -44,8 +44,8 @@
 
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:laurentiujic/website-example.git</developerConnection>
-        <tag>website-example-0.0.1</tag>
+        <developerConnection>scm:git:https://github.com/laurentiujic/website-example.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 
