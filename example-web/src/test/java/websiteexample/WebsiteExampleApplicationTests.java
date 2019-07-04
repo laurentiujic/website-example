@@ -1,4 +1,4 @@
-package websiteexample;
+package laur.springframework.websiteexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
