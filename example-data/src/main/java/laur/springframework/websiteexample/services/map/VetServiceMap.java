@@ -1,11 +1,17 @@
 package laur.springframework.websiteexample.services.map;
 
 import laur.springframework.websiteexample.model.Vet;
-import laur.springframework.websiteexample.services.CrudService;
+import laur.springframework.websiteexample.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
+
+    @Override
+    public Vet findByLastName(String lastName) {
+        return null;
+    }
+
     @Override
     public Set<Vet> findAll() {
         return super.findAll();

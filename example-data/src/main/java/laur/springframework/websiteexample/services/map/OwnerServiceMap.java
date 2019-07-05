@@ -1,11 +1,18 @@
 package laur.springframework.websiteexample.services.map;
 
 import laur.springframework.websiteexample.model.Owner;
-import laur.springframework.websiteexample.services.CrudService;
+import laur.springframework.websiteexample.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
+
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
+    }
+
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
