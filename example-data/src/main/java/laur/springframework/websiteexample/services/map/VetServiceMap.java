@@ -2,9 +2,11 @@ package laur.springframework.websiteexample.services.map;
 
 import laur.springframework.websiteexample.model.Vet;
 import laur.springframework.websiteexample.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
