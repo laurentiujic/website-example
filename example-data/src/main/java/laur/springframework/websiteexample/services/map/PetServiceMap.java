@@ -1,13 +1,13 @@
 package laur.springframework.websiteexample.services.map;
 
 import laur.springframework.websiteexample.model.Pet;
-import laur.springframework.websiteexample.services.CrudService;
+import laur.springframework.websiteexample.services.PetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
