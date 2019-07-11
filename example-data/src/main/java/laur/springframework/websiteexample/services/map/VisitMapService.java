@@ -1,10 +1,12 @@
 package laur.springframework.websiteexample.services.map;
 
 import laur.springframework.websiteexample.model.Visit;
-import laur.springframework.websiteexample.services.springdatajpa.VisitService;
+import laur.springframework.websiteexample.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
     @Override
     public Set<Visit> findAll() {
