@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 $JAVA_OPTS -jar example-web/target/example-web-0.0.4-SNAPSHOT.jar
+web: java -jar example-web/target/example-web-0.0.4-SNAPSHOT.jar
